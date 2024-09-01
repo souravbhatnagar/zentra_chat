@@ -63,3 +63,15 @@ source .venv/bin/activate
 ``` shell
 pip install -r requirements.txt
 ```
+
+#### Runing unit tests
+
+##### Switch to backend/ directory
+``` shell
+cd backend/
+```
+
+##### Execute the following command to run Django tests
+``` shell
+python manage.py test
+```
